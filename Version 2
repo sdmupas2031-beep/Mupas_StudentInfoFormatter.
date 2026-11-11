@@ -1,7 +1,8 @@
-first_name= input("Enter first name: ")
-last_name= input("Enter last name: ")
-section= input("Enter section: ")
-Fav_subject= input("Enter favorite subject: ")
+# Accept required inputs from the user
+first_name = input("Enter first name: ")
+last_name = input("Enter last name: ")
+section = input("Enter section: ")
+favorite_subject = input("Enter favorite subject: ")
 
 #Process and format the strings
 full_name_title = f"{first_name} {last_name}".title()
