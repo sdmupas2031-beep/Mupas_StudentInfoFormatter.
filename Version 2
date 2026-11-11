@@ -9,3 +9,5 @@ full_name_upper = f"{first_name} {last_name}".upper()
 section_upper = section.upper()
 subject_title = favorite_subject.title()
 
+#Character count
+character_count = len(first_name + " " + last_name)
