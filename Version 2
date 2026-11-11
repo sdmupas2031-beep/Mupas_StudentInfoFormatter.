@@ -11,3 +11,11 @@ subject_title = favorite_subject.title()
 
 #Character count
 character_count = len(first_name + " " + last_name)
+
+# Display the required outputs
+print("\nFormatted Output:")
+print(f"Name: {full_name_title}")
+print(f"Name Code: {full_name_upper}")
+print(f"Section: {section_upper}")
+print(f"Favorite Subject: {subject_title}")
+print(f"Character Count: {character_count}")
