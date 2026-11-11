@@ -2,3 +2,10 @@ first_name= input("Enter first name: ")
 last_name= input("Enter last name: ")
 section= input("Enter section: ")
 Fav_subject= input("Enter favorite subject: ")
+
+#Process and format the strings
+full_name_title = f"{first_name} {last_name}".title()
+full_name_upper = f"{first_name} {last_name}".upper()
+section_upper = section.upper()
+subject_title = favorite_subject.title()
+
